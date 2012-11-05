@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="progressbar_title">加载中</string>
+    <string name="progressbar_message">请稍候...</string>
+    <string name="picture_save_success">图片保存成功:</string>
+    <string name="picture_save_failure">图片保存失败</string>
+    <string name="picture_loading_wait">图片尚未加载完成，请稍后...</string>
+    <string name="file_read_error">文件读写错误！</string>
+    
+    
+    
+    <!-- listview -->
+    <string name="pull_to_refresh_pull_label">下拉</string>
+    <string name="pull_to_refresh_release_label">更新</string>
+    <string name="pull_to_refresh_refreshing_label">请稍候......</string>
+    <string name="pull_to_refresh_tap_label"></string>
+    <string name="click_load_more">点击加载更多</string>
+
+</resources>
