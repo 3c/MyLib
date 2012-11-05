@@ -1,0 +1,4 @@
+MyLib
+=====
+
+lib of anything
