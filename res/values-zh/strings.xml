@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- common -->
+
+    <string name="hello">Hello World, Oular!</string>
+    <string name="app_name">MobitideLib</string>
+    <string name="exit">退出</string>
+    <string name="hide">隐藏</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="dialog_title">提示</string>
+    <string name="setting">设置</string>
+    <!-- google maps -->
+    <string name="maps_api_key_debug">0sM6PWxc0HxhUs_GHc377Uvni3esrmLdEPgIyXQ</string>
+    <string name="maps_api_key_release">0sM6PWxc0Hxil8dXVnbyFP8UP2HuqaOMX3fsi1A</string>
+    
+    
+    <!-- file -->
+    <string name="file_save_success">文件保存成功</string>
+    <string name="file_save_failure">文件保存失败</string>
+    <string name="file_loading_wait">文件尚未加载完成，请稍后...</string>
+    <string name="file_read_error">文件读写错误！</string>
+
+    <!-- error -->
+    <string name="error_no_net">网络异常,请检查网络</string>
+    <string name="error_bundle_null">数据传输异常</string>
+    <string name="error_no_appuid">请您先在会员中心登录</string>
+    <string name="error_comment_null">请输入评论内容</string>
+    <string name="error_meesage_null">请输入消息内容</string>
+    <string name="error_data">数据出现异常</string>
+    <string name="error_no_more_data">没有更多数据</string>
+    <string name="error_no_data">这个分类下还没有内容</string>
+    <string name="error_category_no_data">这个分类下还没有内容</string>
+    <string name="error_phone">电话号码格式有错误！\n如果是座机，请输入区号，例如：\n010-88888888</string>
+    <string name="error_address">请填写地址详细信息，例如：北京</string>
+    <string name="error_photos_max">最多可以使用5张图片</string>
+    <string name="error_email_format">邮箱格式有误</string>
+    <string name="vo_lat_lon_eror">暂无经纬度数据</string>
+    <string name="error_produce_less">请完善产品信息</string>
+    <string name="error_produce_no_category">请选择产品分类</string>
+    <string name="no_collection">暂无收藏内容</string>
+
+    <!-- prompt -->
+    <string name="progressbar_title">加载中</string>
+    <string name="progressbar_message">请稍候...</string>
+    <string name="picture_save_success">图片保存成功:</string>
+    <string name="picture_save_failure">图片保存失败</string>
+    <string name="picture_loading_wait">图片尚未加载完成，请稍后...</string>
+    <string name="kilogram">公里</string>
+    <string name="no_net">当前网络异常</string>
+    <string name="fav_success">收藏成功</string>
+    <string name="cancel_fav_success">取消收藏成功</string>
+    <string name="fav_had">您已收藏过</string>
+    <string name="bind_success">绑定成功</string>
+    <string name="bind_failure">绑定失败</string>
+    <string name="sns_account_have_bind">微博账号已绑定</string>
+    <string name="sns_account_have_bind_by">微博账号已经被</string>
+    <string name="sns_account_login_by">绑定,请使用该账号登录</string>
+    <string name="setting_signature">设置个性签名</string>
+    <string name="music_error">该音乐无法播放</string>
+    <string name="music_no_playing">没有音乐在播放</string>
+    <string name="prompt">提示</string>
+    <string name="are_u_sure_exit">您确定要退出吗</string>
+    <string name="no_more_prompt">不再提示</string>
+    <string name="net_parse_error">网络解析异常，请稍后重试</string>
+    <string name="no_data">当前列表数据为空</string>
+    <string name="get_message_error">信息获取失败</string>
+    <string name="file_not_exits">文件不存在</string>
+    <string name="clear_cache">清除缓存将会清除所有缓存过的文件，确定要清除吗？</string>
+    <string name="download">下载</string>
+    <string name="no_collector">还没有收藏，快去收藏吧</string>
+    <string name="no_sd_card">您的设备当前没有装载SD卡，建议装载SD卡获得更好体验</string>
+    <string name="have_update_resource">当前资源有更新，是否同步？\n注意：更新会下载资源包，建议在wifi下进行</string>
+    <string name="update_resource_or_not">当前有新版本，是否要更新？</string>
+    <string name="newest_version">当前已是最新版本</string>
+    <string name="connect_web_update">请联网更新</string>
+
+    <!-- XListView -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 支付宝 -->
+    <string name="activity_remote_service_binding">AppDemo4</string>
+    <string name="remote_call_failed">Failure calling remote service</string>
+    <string name="partnerHint">"partner"</string>
+    <string name="sellerHint">"seller"</string>
+    <string name="out_trade_noHint">"out_trade_no"</string>
+    <string name="subjectHint">"subject"</string>
+    <string name="bodyHint">"body"</string>
+    <string name="total_feeHint">"total_fee"</string>
+    <string name="notify_urlHint">"notify_url"</string>
+    <string name="charsetHint">"charset"</string>
+    <string name="signTypeHint">"signType"</string>
+    <string name="confirm_install_hint">"安装提示"</string>
+    <string name="confirm_install">"为保证您的交易安全，需要您安装支付宝安全支付服务，才能进行付款。\n\n点击确定，立即安装。"</string>
+    <string name="Ensure">"确定"</string>
+    <string name="Cancel">"取消"</string>
+    <string name="check_sign_failed">您的订单信息已被非法篡改。</string>
+
+</resources>
