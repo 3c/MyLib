@@ -17,7 +17,7 @@ public class MGlobalApplication extends Application {
     /**
      * 程序实例。
      */
-    private static MGlobalApplication mInstance;
+    public static MGlobalApplication mInstance;
 
 
 
@@ -37,10 +37,6 @@ public class MGlobalApplication extends Application {
         initImageLoader();
     }
 
-
-    private MGlobalApplication() {
-        // Exists only to defeat instantiation.
-    }
 
     public static MGlobalApplication getInstance() {
         if (mInstance == null) {

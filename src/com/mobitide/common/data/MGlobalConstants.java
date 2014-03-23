@@ -28,7 +28,7 @@ public final class MGlobalConstants {
         /**
          * 文件根目录
          */
-        public final static String ROOT_DIR = "oularapp";
+        public  static String ROOT_DIR = "oularapp";
         /**
          * 临时文件 存储 目录名
          */
